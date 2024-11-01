@@ -1,0 +1,25 @@
+.wp-stibee-tab {
+	overflow: hidden;	
+	border-bottom:1px solid #ccc;
+}
+
+.wp-stibee-tab li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.wp-stibee-tab li a {
+	display: inline-block;
+	padding: 10px 20px;
+	border:1px solid #ccc;
+	border-width:1px 1px 0 1px;
+	text-decoration: none;
+	color: #666;
+}
+
+.wp-stibee-tab li.active a {
+	background: #fff;
+	font-weight: bold;
+	color: #0073aa;
+}
